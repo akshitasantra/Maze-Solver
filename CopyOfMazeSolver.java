@@ -2,7 +2,7 @@ import java.io.File;
 import java.util.Scanner;
 import java.util.List;
 import java.util.ArrayList;
-public class CopyOfMazeSolver {
+public class MazeSolver {
     public static void main(String[] args) {
         List<Point> maze = readMaze("Maze1.txt");
         System.out.println(maze);
